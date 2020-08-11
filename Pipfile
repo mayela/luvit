@@ -8,6 +8,10 @@ verify_ssl = true
 [packages]
 django = "*"
 psycopg2 = "*"
+marshmallow = "*"
+
+[scripts]
+server = "python manage.py runserver"
 
 [requires]
 python_version = "3.8"
