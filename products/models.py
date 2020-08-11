@@ -1,14 +1,5 @@
 from django.db import models
 
-'''
-Product {
-    id: String
-    name: String
-    value: Float
-    discount_value: Float?
-    stock: Int
-}
-'''
 
 class Product(models.Model):
     '''
