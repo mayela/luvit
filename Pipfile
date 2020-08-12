@@ -15,6 +15,7 @@ marshmallow = "*"
 
 [scripts]
 server = "python manage.py runserver"
+test = "pipenv run pytest"
 
 [requires]
 python_version = "3.8"
